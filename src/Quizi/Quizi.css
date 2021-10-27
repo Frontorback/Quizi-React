@@ -1,0 +1,98 @@
+body{
+    background:#eee
+}
+main{
+    margin: 3% 10%;
+    border: 1px solid grey;
+    background-color: white ;
+    border-radius: 8px;
+}
+
+.Nav-Quizi{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0%;
+}
+.Nav-Quizi div:nth-child(1){
+    font-weight: 900;
+    font-size: 22px;
+    border: 1px solid grey;
+    background-color: #c6c6c6;
+    border-radius: 8px;
+    margin-left: 2%;
+    padding: 1%;
+}
+.Nav-Quizi div:nth-child(2){
+    
+    border: 1px solid grey;
+    background-color: #c6c6c6;
+    font-size: 22px;
+    border-radius: 8px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+
+.Quation-Quizi{
+    border:  thick double #582a29;
+    font-size: 22px;
+    margin: 2%;
+    padding: 1%;
+    background-color: #c6c6c6;
+
+}
+
+.Chose-Quizi{
+    font-size: 22px;
+    margin: 1% 2%;
+    color: grey;
+    border-bottom: 1px solid ;
+}
+
+.Answer-Quizi{
+    border: 1px solid grey;
+    margin: 1% 2%;
+}
+
+.Answer-Quizi ul{
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    list-style-type: none;
+    margin: 0%;
+    padding: 1%;
+}
+.Answer-Quizi ul:hover{
+    cursor: pointer;
+    background-color: #f7e012;
+    color: #856463;
+}
+.Answer-Quizi ul:last-child{
+    border-bottom: none;
+}
+
+
+main button{
+    font-size: 22px;
+    margin: 0 0 1% 85%;
+}
+
+/* Quizi ended */
+
+.Quizi-Answers h1, .score, .check, .buttons{
+    text-align: center;
+    
+}
+.score, .check{
+    font-size: 18px;
+}
+main button, .Quizi-Answers button {
+    background-color: #582a29ba ;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Quizi-Answers button{
+    font-size: 16px;
+    margin: 21px;
+    
+}

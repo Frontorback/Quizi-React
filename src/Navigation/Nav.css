@@ -1,0 +1,39 @@
+body, nav ul{
+    margin: 0%;
+    
+}
+
+nav{
+    background-color: #00008eba;
+}
+
+nav ul{
+    margin: 0 auto;
+    padding: 2%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+nav li{
+    font-size: 24px;
+    
+}
+nav li:nth-child(1){
+    margin-right: 1%;
+}
+nav li:nth-child(2){
+    margin-left: 1%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c6c6c6;
+}
+nav a.active{
+    color: #f7e012;
+}

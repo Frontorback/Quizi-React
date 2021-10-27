@@ -1,0 +1,49 @@
+.Quizi-question{
+    padding-left: 1%;
+}
+.List-answers{
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.List-answers .currentA{
+    background-color: #b5f3c6;
+    
+}
+.List-answers li{
+    background-color: #ff6c5f;
+    list-style-type: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.List-answers span{
+    color: white;
+}
+
+.Quizi-Answers:nth-last-child(-n+2){
+    margin-bottom: 1%;
+}
+.Quizi-Answers{
+    border: 1px solid #dadce0;
+    max-width: 800px;
+    margin: 2% auto;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.Quizi-Answers:last-child{
+    margin-bottom: 1%;
+}
+
+.Answers-btn{
+    padding: .5% 0% ;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 22px;
+    max-width: 800px;
+    background-color: #582a29ba ;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
